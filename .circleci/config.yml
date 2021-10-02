@@ -25,7 +25,8 @@ jobs:
       # Then run your tests!
       - run:
           name: Test
-          command: mvn test
+          command: mkdir test-result; mvn test
+          
       #Store test results
       - store_test_results:
           path: test-results          
