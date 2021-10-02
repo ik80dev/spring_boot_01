@@ -29,7 +29,7 @@ jobs:
           
       #Store test results
       - store_test_results:
-          path: test-results          
+          path: .          
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
