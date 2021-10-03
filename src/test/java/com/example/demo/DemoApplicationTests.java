@@ -22,5 +22,11 @@ class DemoApplicationTests {
 		Assertions.assertTrue(true);
 
 	}
+	
+	@Test
+	void testValid2() {
+		Assertions.assertTrue(true);
+
+	}
 
 }
